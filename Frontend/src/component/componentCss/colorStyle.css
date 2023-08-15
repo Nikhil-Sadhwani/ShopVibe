@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    height: 79vh;
+    background: rgb(48,152,213);
+    background: radial-gradient(circle, rgba(48,152,213,1) 24%, rgba(170,199,216,1) 100%);
+}
+
+.navColor{
+    background-color: #AAC7D8;
+}
+.homeBg{
+    background-color: white;
+}
+
+.gradientColor{
+    height: auto;
+    /* background: rgb(159,204,250);
+    background: radial-gradient(circle, rgba(159,204,250,1) 0%, rgba(86,182,230,1) 43%, rgba(0,118,177,1) 78%); */
+    background: rgb(2 137 216);
+background: radial-gradient(circle,rgba(170,199,216,1) , rgba(48,152,213,1) 24%, 100%);
+  }

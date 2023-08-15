@@ -1,0 +1,204 @@
+
+
+.classh4 {
+  color: #0492e5;
+}
+.classinput,
+.classinput[type="radio"] + .classlabel,
+.classinput[type="checkbox"] + .classlabel:before,
+.classselect .classoption,
+.classselect {
+  width: 100%;
+  padding: 1em;
+  line-height: 1.4;
+  background-color: #f9f9f9;
+  border: 1px solid #9c9898;
+  border-radius: 3px;
+  -webkit-transition: 0.35s ease-in-out;
+  -moz-transition: 0.35s ease-in-out;
+  -o-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+.classinput:focus {
+  outline: 0;
+  border-color: #0492e5;
+}
+.classinput:focus + .input-icon i {
+  color: #0492e5;
+}
+.classinput:focus + .input-icon:after {
+  border-right-color: #0492e5;
+}
+.classinput[type="radio"] {
+  display: none;
+}
+.classinput[type="radio"] + .classlabel,
+.classselect {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  /* float: left; */
+  border-radius: 0;
+}
+.classinput[type="radio"] + .classlabel:first-of-type {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.classinput[type="radio"] + .classlabel:last-of-type {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.classinput[type="radio"] + .classlabel i {
+  padding-right: 0.4em;
+}
+.classinput[type="radio"]:checked + .classlabel,
+.classinput:checked + .classlabel:before,
+.classselect:focus,
+.classselect:active {
+  background-color: #0492e5;
+  color: #fff;
+  border-color: #bd8200;
+}
+.classinput[type="checkbox"] {
+  display: none;
+}
+.classinput[type="checkbox"] + .classlabel {
+  position: relative;
+  display: block;
+  padding-left: 1.6em;
+}
+.classinput[type="checkbox"] + .classlabel:before {
+  position: absolute;
+  top: 0.2em;
+  left: 0;
+  display: block;
+  width: 1em;
+  height: 1em;
+  padding: 0;
+  content: "";
+}
+.classinput[type="checkbox"] + .classlabel:after {
+  position: absolute;
+  top: 0.45em;
+  left: 0.2em;
+  font-size: 0.8em;
+  color: #fff;
+  opacity: 0;
+  font-family: FontAwesome;
+  content: "\f00c";
+}
+.classinput:checked + .classlabel:after {
+  opacity: 1;
+}
+.classselect {
+  height: 3.4em;
+  line-height: 2;
+}
+.classselect:first-of-type {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.classselect:last-of-type {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.classselect:focus,
+.classselect:active {
+  outline: 0;
+}
+.classselect .classoption {
+  background-color: #0492e5;
+  color: #fff;
+}
+.input-group {
+  margin-bottom: 1em;
+  zoom: 1;
+}
+.input-group:before,
+.input-group:after {
+  content: "";
+  display: table;
+}
+.input-group:after {
+  clear: both;
+}
+.input-group-icon {
+  position: relative;
+}
+.input-group-icon .classinput {
+  padding-left: 4.4em;
+}
+.input-group-icon .input-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3.4em;
+  height: 3.4em;
+  line-height: 3.4em;
+  text-align: center;
+  pointer-events: none;
+}
+.input-group-icon .input-icon:after {
+  position: absolute;
+  top: 0.6em;
+  bottom: 0.6em;
+  left: 3.4em;
+  display: block;
+  border-right: 1px solid #e5e5e5;
+  content: "";
+  -webkit-transition: 0.35s ease-in-out;
+  -moz-transition: 0.35s ease-in-out;
+  -o-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+.input-group-icon .input-icon i {
+  -webkit-transition: 0.35s ease-in-out;
+  -moz-transition: 0.35s ease-in-out;
+  -o-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+.paymentcontainer {
+  max-width: 38em;
+  padding: 1em 3em 2em 3em;
+  margin: 0em auto;
+  background-color: #fff;
+  border-radius: 4.2px;
+  box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.2);
+  margin-top: 85px;
+}
+.rowpayment {
+  zoom: 1;
+}
+.rowpayment:before,
+.rowpayment:after {
+  content: "";
+  display: table;
+}
+.rowpayment:after {
+  clear: both;
+}
+.col-half {
+  padding-right: 10px;
+  float: left;
+  width: 50%;
+}
+.col-half:last-of-type {
+  padding-right: 0;
+}
+.col-third {
+  padding-right: 10px;
+  float: left;
+  width: 33.33333333%;
+}
+.col-third:last-of-type {
+  padding-right: 0;
+}
+@media only screen and (max-width: 540px) {
+  .col-half {
+    width: 100%;
+    padding-right: 0;
+  }
+}
