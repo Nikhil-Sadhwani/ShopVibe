@@ -27,7 +27,7 @@ export default function UserList(){
         <div className="container marginTop100" style={{textAlign:"center"}}>
 
         
-            <h1>List User</h1>
+            <h1>User List</h1>
             <hr />
             <div className="tableClass">
 
